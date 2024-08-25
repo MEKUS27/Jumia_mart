@@ -18,23 +18,112 @@
         display: block !important;
     }
     main {
-        width: 95%;
+        width: 100%;
     }
     main  .prod_img img {
         width: 160px;
         border-radius: 3px;
     }
     main .prod_name h1 {
-        font-size: 13px;
+        font-size: 12px;
+        font-weight: 400;
     }
     main .prod_price {
-        font-size: 14px;
+        /* font-size: 14px; */
     }
     main .former_prod_price {
-        font-size: 12px;
+        display: none;
     }
     main .prod_remainitem {
+        display: none;
+    }
+    main .NewArrivals h1 {
+        padding: 10px;
+        font-size: 15px;
+    }
+    main .NewArrivals  a button {
         font-size: 12px;
+    }
+    main .NewArrivals  a button i {
+        display: none;
+    }
+    main .NewArrivals .time {
+        display: none;
+    }
+    .mainStock .top_selling {
+        padding: 3px 10px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    .mainStock .top_selling h1 {
+        font-size: 15px;
+    }
+    .mainStock .top_selling a {
+        font-size: 13px;
+    }
+    .mainStock .top_selling a i {
+        display: none;
+    }
+    .mainStock .PhoneStock {
+        padding: 3px 10px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    .mainStock .PhoneStock h1 {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .mainStock .PhoneStock a {
+        font-size: 13px;
+    }
+    .mainStock .PhoneStock a i {
+        display: none;
+    }
+    .mainStock .limitedStock {
+        padding: 3px 10px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    .mainStock .limitedStock h1 {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .mainStock .limitedStock a {
+        font-size: 13px;
+    }
+    .mainStock .limitedStock a i {
+        display: none;
+    }
+    .mainStock .nive_store {
+        padding: 3px 10px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    .mainStock .nive_store h1 {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .mainStock .nive_store a {
+        font-size: 13px;
+    }
+    .mainStock .nive_store a i {
+        display: none;
+    }
+
+    .mainStock .Beauty_Deals {
+        padding: 3px 10px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    .mainStock .Beauty_Deals h1 {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .mainStock .Beauty_Deals a {
+        font-size: 13px;
+    }
+    .mainStock .Beauty_Deals a i {
+        display: none;
     }
     .magic_deals {
         width: 95%;
@@ -52,20 +141,8 @@
     .jumia p {
         padding-right: 0px;
     }
-    /* .magic_deals .left .image {
-        width: auto;
+    .magic_deals  {
+        display: none;
     }
-    .magic_deals .right .image {
-        width: auto;
-    }
-    .magic_deals .left .image img{
-        width: 130%;
-        height: 130%;
-        object-fit: cover;
-    }
-    .magic_deals .right .image img{
-        width: 130%;
-        height: 130%;
-        object-fit: cover;
-    } */
+  
 }
