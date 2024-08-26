@@ -621,7 +621,7 @@ nav .acc {
 main {
     width: 85%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 15px;
     height: auto;
     /* padding: 10px 25px; */
     background-color: #FFFFFF;
@@ -866,11 +866,14 @@ main .prod_remainitem {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+
 .mainStock .Best_Deals h1 {
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
     font-size: 20px;
     color: #0C0C18;
+    display: flex;
+    align-items: center;
 }
 .mainStock .Best_Deals h1 span {
     font-weight: 300;

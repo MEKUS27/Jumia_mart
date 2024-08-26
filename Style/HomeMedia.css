@@ -39,18 +39,21 @@
     }
     main .NewArrivals h1 {
         padding: 10px;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 700;
     }
     main .NewArrivals  a button {
         font-size: 11px;
-        font-weight: 700;
+        font-weight: 800;
     }
     main .NewArrivals  a button i {
         display: none;
     }
     main .NewArrivals .time {
         display: none;
+    }
+    .mainStock {
+        margin-bottom: 3px;
     }
     .mainStock .top_selling {
         padding: 3px 10px;
@@ -63,7 +66,7 @@
     }
     .mainStock .top_selling a {
         font-size: 11px;
-        font-weight: 700;
+        font-weight: 800;
     }
     .mainStock .top_selling a i {
         display: none;
@@ -80,7 +83,7 @@
     }
     .mainStock .PhoneStock a {
         font-size: 11px;
-        font-weight: 700;
+        font-weight: 800;
     }
     .mainStock .PhoneStock a i {
         display: none;
@@ -97,7 +100,7 @@
     }
     .mainStock .limitedStock a {
         font-size: 12px;
-        font-weight: 700;
+        font-weight: 800;
     }
     .mainStock .limitedStock a i {
         display: none;
@@ -114,7 +117,7 @@
     }
     .mainStock .nive_store a {
         font-size: 11px;
-        font-weight: 700;
+        font-weight: 800;
     }
     .mainStock .nive_store a i {
         display: none;
@@ -132,9 +135,26 @@
     }
     .mainStock .Beauty_Deals a {
         font-size: 11px;
-        font-weight: 700;
+        font-weight: 800;
     }
     .mainStock .Beauty_Deals a i {
+        display: none;
+    }
+    .mainStock .Best_Deals {
+        padding: 3px 10px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    .mainStock .Best_Deals h1{
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+    .mainStock .Best_Deals a {
+        font-size: 11px;
+        font-weight: 800;
+    }
+    .mainStock .Best_Deals a i {
         display: none;
     }
     .magic_deals {
