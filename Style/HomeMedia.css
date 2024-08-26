@@ -49,6 +49,7 @@
         margin-left: 10px;
         font-family: "DM Sans", sans-serif;
         font-weight: 300;
+        font-size: 11px;
         /* font-size: 13px; */
         letter-spacing: 2px;
     }
@@ -203,13 +204,13 @@
         margin-top: 10px;
     }
     .jumia {
-        width: 95%;
+        width: 100%;
     }
     .jumia h1 {
-        font-size: 14px;
+        font-size: 20px;
     }
     .jumia h2 {
-        font-size: 14px;
+        font-size: 18px;
     }
     .jumia p {
         padding-right: 0px;
