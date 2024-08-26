@@ -19,6 +19,10 @@
     }
     main {
         width: 100%;
+        border-radius: 0px;
+    }
+    main .NewArrivals {
+        border-radius: 0px;
     }
     main .Dee {
         width: 250px;
@@ -27,10 +31,11 @@
         padding: 2px !important;
     }
     main .NewArrivals .time {
-       padding: 0px;
+       padding-top: 0px !important;
     }
     main .NewArrivals h1 {
         font-weight: 500;
+        font-size: 23px;
     }
     main .NewArrivals  a button {
         margin-top: -20px;
@@ -39,7 +44,8 @@
         display: flex !important;
         display: block;
         color: white;
-        margin-top: -19px;
+        margin-top: -18px;
+        height: auto;
         margin-left: 10px;
         font-family: "DM Sans", sans-serif;
         font-weight: 300;
@@ -51,6 +57,7 @@
         align-items: center;
         list-style: none;
         margin-left: -27px;
+        font-weight: 600;
     }
     main .NewArrivals .TIME ul div {
         display: flex;
@@ -92,11 +99,11 @@
     }
     .mainStock {
         margin-bottom: 4px;
+        border-radius: 0px;
     }
     .mainStock .top_selling {
         padding: 3px 10px;
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
+        border-radius: 0px;
     }
     .mainStock .top_selling h1 {
         font-size: 15px;
@@ -105,14 +112,14 @@
     .mainStock .top_selling a {
         font-size: 11px;
         font-weight: 800;
+        border-radius: 0px;
     }
     .mainStock .top_selling a i {
         display: none;
     }
     .mainStock .PhoneStock {
         padding: 3px 10px;
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
+        border-radius: 0px;
     }
     .mainStock .PhoneStock h1 {
         font-size: 15px;
@@ -128,8 +135,7 @@
     }
     .mainStock .limitedStock {
         padding: 3px 10px;
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
+        border-radius: 0px;
     }
     .mainStock .limitedStock h1 {
         font-size: 15px;
@@ -145,8 +151,7 @@
     }
     .mainStock .nive_store {
         padding: 3px 10px;
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
+        border-radius: 0px;
     }
     .mainStock .nive_store h1 {
         font-size: 15px;
@@ -163,8 +168,7 @@
 
     .mainStock .Beauty_Deals {
         padding: 3px 10px;
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
+        border-radius: 0px;
     }
     .mainStock .Beauty_Deals h1 {
         font-size: 15px;
@@ -180,8 +184,7 @@
     }
     .mainStock .Best_Deals {
         padding: 3px 10px;
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
+        border-radius: 0px;
     }
     .mainStock .Best_Deals h1{
         font-size: 15px;
