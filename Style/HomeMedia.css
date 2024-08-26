@@ -20,6 +20,44 @@
     main {
         width: 100%;
     }
+    main .Dee {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        padding: 2px !important;
+    }
+    main .NewArrivals .time {
+       padding: 0px;
+    }
+    main .NewArrivals h1 {
+        font-weight: 500;
+    }
+    main .NewArrivals  a button {
+        margin-top: -20px;
+    }
+    main .NewArrivals .TIME {
+        display: flex !important;
+        display: block;
+        color: white;
+        margin-top: -19px;
+        margin-left: 10px;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 300;
+        /* font-size: 13px; */
+        letter-spacing: 2px;
+    }
+    main .NewArrivals .TIME ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin-left: -27px;
+    }
+    main .NewArrivals .TIME ul div {
+        display: flex;
+    }
+    main .NewArrivals .TIME .p {
+        display: none;
+    }
     main  .prod_img img {
         width: 175px;
         border-radius: 3px;
@@ -27,9 +65,6 @@
     main .prod_name h1 {
         font-size: 13px;
         font-weight: 400;
-    }
-    main .prod_price {
-        /* font-size: 14px; */
     }
     main .former_prod_price {
         display: none;
