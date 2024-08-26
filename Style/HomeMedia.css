@@ -21,11 +21,11 @@
         width: 100%;
     }
     main  .prod_img img {
-        width: 160px;
+        width: 175px;
         border-radius: 3px;
     }
     main .prod_name h1 {
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 400;
     }
     main .prod_price {
@@ -52,8 +52,11 @@
     main .NewArrivals .time {
         display: none;
     }
+    .magic_deals {
+        margin-bottom: 4px;
+    }
     .mainStock {
-        margin-bottom: 3px;
+        margin-bottom: 4px;
     }
     .mainStock .top_selling {
         padding: 3px 10px;
