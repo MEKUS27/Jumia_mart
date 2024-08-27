@@ -233,7 +233,7 @@
     transition: 0.3s ease-in-out;
 }
  .two {
-     margin-top: -15px;
+     margin-top: -20px;
     /* padding-top: 20px !important;
     padding-bottom: 30px; */
 }
@@ -277,7 +277,6 @@
     transition: 0.3s ease-in-out;
 }
 .two {
-    /* padding-top: 20px !important;
-    padding-bottom: 35px; */
+  
 }
 } 
