@@ -277,6 +277,40 @@ object-fit: cover;
 }
 
 
+.mobile-magic-deals {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 11px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.096);
+}
+
+.mobile-magic-deals .one {
+    width: fit-content;
+    text-align: center;
+} 
+.mobile-magic-deals img {
+    width: auto;
+    border-radius: 3px;
+}
+.mobile-magic-deals .one .image{
+width: 102%;
+height:auto;
+border-radius: 3px;
+overflow: hidden;
+padding-bottom: 5px;
+}
+
+.mobile-magic-deals .one .image img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
   
 }
 
