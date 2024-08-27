@@ -198,7 +198,8 @@
         text-align: center;
     }
     .mobile_catego img {
-        width: 95px;
+        width: 125px;
+        border-radius: 3px;
     }
     .mobile_catego .one p {
         font-size: 12px;
