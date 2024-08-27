@@ -189,16 +189,16 @@
         background-color: white;
         display: grid !important;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 8px;
+        grid-gap: 3px;
         padding: 10px;
         overflow: hidden;
     }
     .mobile_catego .one {
-        width: fit-content;
+        /* width: fit-content; */
         text-align: center;
     }
     .mobile_catego img {
-        width: 113px;
+        width: 115px;
         border-radius: 3px;
     }
     .mobile_catego .one p {
