@@ -43,6 +43,9 @@
         font-size: 13px;
         font-weight: 400;
     }
+    main .prod_price {
+        padding-bottom: 10px;
+    }
     main .former_prod_price {
         display: none;
     }
