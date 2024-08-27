@@ -203,14 +203,15 @@
         /* background-color: red; */
         position: relative;
         /* padding-bottom: 10px; */
-    }
+    } 
+    
     .mobile_catego img {
         width: 100px;
         border-radius: 3px;
     }
     .mobile_catego .one p {
         font-size: 11px;
-       position: absolute;
+       /* position: absolute; */
        left: 16%;
     }
     
@@ -233,8 +234,9 @@
     transition: 0.3s ease-in-out;
 }
  .two {
-    padding-top: 20px !important;
-    padding-bottom: 30px;
+     margin-top: -30px;
+    /* padding-top: 20px !important;
+    padding-bottom: 30px; */
 }
   
 }
@@ -276,7 +278,7 @@
     transition: 0.3s ease-in-out;
 }
 .two {
-    padding-top: 20px !important;
-    padding-bottom: 35px;
+    /* padding-top: 20px !important;
+    padding-bottom: 35px; */
 }
 } 
