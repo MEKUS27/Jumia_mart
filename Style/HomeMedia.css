@@ -32,7 +32,9 @@
         font-size: 23px;
         color: white;
     }
-    
+    main .prod_grid::-webkit-scrollbar {
+        display: block !important;
+    }
     main  .prod_img img {
         width: 175px;
         border-radius: 3px;

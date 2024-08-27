@@ -772,16 +772,18 @@ main .prod_price {
 }
 main .prod_price p {
     padding-left: 4px;
+    margin-bottom: 0px !important;
 }
 main .former_prod_price {
     display: flex;
-    margin-top: -17px;
+    /* margin-top: -17px; */
     font-family: "DM Sans", sans-serif;
     font-weight: 300;
     color: #77777C;
     font-size: 14px;
     text-decoration: line-through;
     padding-left: 7px;
+    margin-bottom: 0px !important;
 }
 main .prod_remainitem {
     margin-top: -17px;
@@ -790,6 +792,7 @@ main .prod_remainitem {
     color: #0C0C18;
     font-size: 13px;
     padding-left: 7px;
+    margin-bottom: 0px !important;
 }
 
 .magic_deals {
