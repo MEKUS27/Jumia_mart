@@ -10,7 +10,7 @@
 
 }
     
-@media (max-width: 520px) {
+@media (max-width: 500px) {
     .blank {
         display: none !important;
     }
@@ -196,7 +196,7 @@
         text-align: center;
     }
     .mobile_catego img {
-        width: 90px;
+        width: 100px;
     }
     .mobile_catego .one p {
         font-size: 12px;
