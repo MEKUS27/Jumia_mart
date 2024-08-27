@@ -24,48 +24,12 @@
     main .NewArrivals {
         border-radius: 0px;
     }
-    main .Dee {
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-        padding: 2px !important;
-    }
-    main .NewArrivals .time {
-       padding-top: 0px !important;
-    }
+    
     main .NewArrivals h1 {
         font-weight: 500;
         font-size: 23px;
     }
-    main .NewArrivals  a button {
-        margin-top: -20px;
-    }
-    main .NewArrivals .TIME {
-        display: flex !important;
-        display: block;
-        color: white;
-        margin-top: -18px;
-        height: auto;
-        margin-left: 10px;
-        font-family: "DM Sans", sans-serif;
-        font-weight: 300;
-        font-size: 14px;
-        /* font-size: 13px; */
-        letter-spacing: 2px;
-    }
-    main .NewArrivals .TIME ul {
-        display: flex;
-        align-items: center;
-        list-style: none;
-        margin-left: -27px;
-        font-weight: 600;
-    }
-    main .NewArrivals .TIME ul div {
-        display: flex;
-    }
-    main .NewArrivals .TIME .p {
-        display: none;
-    }
+    
     main  .prod_img img {
         width: 175px;
         border-radius: 3px;
@@ -208,7 +172,7 @@
         padding: 10px 10px;
     }
     .jumia h1 {
-        font-size: 21px;
+        font-size: 23px;
     }
     .jumia h2 {
         font-size: 19px;
@@ -218,6 +182,24 @@
     }
     .magic_deals  {
         display: none;
+    }
+    .mobile_catego {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        /* grid-gap: 8px; */
+        padding: 10px;
+    }
+    .mobile_catego .one {
+        text-align: center;
+    }
+    .mobile_catego img {
+        width: 90px;
+    }
+    .mobile_catego .one p {
+        font-size: 12px;
     }
   
 }
