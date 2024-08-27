@@ -283,8 +283,8 @@ object-fit: cover;
     background-color: white;
     display: grid !important;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 11px;
-    padding: 10px 15px;
+    grid-gap: 10px;
+    padding: 6px 10px;
     margin-top: 10px;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.096);
 }
@@ -298,7 +298,7 @@ object-fit: cover;
     border-radius: 3px;
 }
 .mobile-magic-deals .one .image{
-width: 102%;
+width: 101%;
 height:auto;
 border-radius: 3px;
 overflow: hidden;
