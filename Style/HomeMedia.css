@@ -409,7 +409,7 @@ transition: 0.3s ease-in-out;
     background-color: #AADEF1;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0px !important;
 }
 .colllections-catego {
     width: 100%;
@@ -418,7 +418,8 @@ transition: 0.3s ease-in-out;
     display: grid !important;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 8px;
-    padding: 6px 10px;
+    padding: 0px 10px;
+    padding-bottom: 3px;
 }
 .colllections-catego a {
     text-decoration: none;
@@ -456,6 +457,79 @@ object-fit: cover;
 }
 
 .colllections-catego .one .image img:hover{
+transform: scale(1.1);
+transition: 0.3s ease-in-out;
+}
+    
+.official-store {
+    width: 100%;
+    background-color: white;
+    /* padding: 6px 10px; */
+    margin-top: 10px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.096);
+    padding-bottom: 3px;
+
+}
+.official-store h1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 9px 10px;
+    color: white;
+}
+.official-store  #h1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    background-color: #276076;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.official-store-catego {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8px;
+    padding: 0px 10px;
+}
+.official-store-catego a {
+    text-decoration: none;
+    color: black;
+}
+.official-store-catego .one {
+    width: fit-content;
+    text-align: center;
+    /* background-color: red; */
+} 
+.official-store-catego img {
+    width: auto;
+    border-radius: 3px;
+    /* display: none; */
+}
+.official-store-catego .one p {
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 0px !important;
+    /* display: none; */
+}
+
+.official-store-catego .one .image{
+width: 100%;
+height:auto;
+border-radius: 3px;
+overflow: hidden;
+padding-bottom: 5px;
+}
+
+.official-store-catego .one .image img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.official-store-catego .one .image img:hover{
 transform: scale(1.1);
 transition: 0.3s ease-in-out;
 }
