@@ -209,7 +209,7 @@
         border-radius: 3px;
     }
     .mobile_catego .one p {
-        font-size: 12px;
+        font-size: 11px;
        position: absolute;
        left: 16%;
     }
@@ -219,6 +219,7 @@
     height:auto;
     border-radius: 5px;
     overflow: hidden;
+    padding-bottom: 5px;
 }
 
 .mobile_catego .one .image img{
@@ -276,6 +277,6 @@
 }
 .two {
     padding-top: 20px !important;
-    padding-bottom: 40px;
+    padding-bottom: 35px;
 }
 } 
