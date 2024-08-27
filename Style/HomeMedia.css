@@ -215,7 +215,7 @@
     }
     
     .mobile_catego .one .image{
-    width: 102%;
+    width: 105%;
     height:auto;
     border-radius: 5px;
     overflow: hidden;
@@ -234,8 +234,10 @@
 }
  .two {
      margin-top: -20px;
-    /* padding-top: 20px !important;
-    padding-bottom: 30px; */
+ 
+}
+#cate-three {
+    margin-top: 5px;
 }
   
 }
