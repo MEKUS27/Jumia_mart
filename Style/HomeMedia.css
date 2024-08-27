@@ -210,12 +210,13 @@
     }
     .mobile_catego .one p {
         font-size: 11px;
-       /* position: absolute; */
+        font-family: "DM Sans", sans-serif;
+        font-weight: 500;
        left: 16%;
     }
     
     .mobile_catego .one .image{
-    width: 105%;
+    width: 102%;
     height:auto;
     border-radius: 5px;
     overflow: hidden;
@@ -237,7 +238,7 @@
  
 }
 #cate-three {
-    margin-top: 5px;
+    margin-top: 10px;
 }
   
 }
