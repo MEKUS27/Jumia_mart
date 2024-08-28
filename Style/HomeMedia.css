@@ -291,17 +291,17 @@
     .jumia {
         width: 100%;
         padding: 10px 10px;
-        margin-top: 5px !important;
+        margin-top: 8px !important;
     }
     .jumia h1 {
-        font-size: 23px;
+        font-size: 22px;
     }
     .jumia h2 {
-        font-size: 19px;
+        font-size: 18px;
     }
     .jumia p {
         padding-right: 0px;
-        font-size: 10px;
+        font-size: 11px;
     }
     
     .more-text {
@@ -317,8 +317,8 @@
         border: none;
         color: #FF9900;
         font-family: "DM Sans", sans-serif;
-        font-weight: 500;
-        font-size: 14px;
+        font-weight: 600;
+        font-size: 13px;
         cursor: pointer;
     }
     .magic_deals  {
