@@ -17,6 +17,84 @@
     .mobile {
         display: block !important;
     }
+    .mobilenavbar {
+        position: relative;
+    }
+    .mobile-nav {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: -10px;
+        margin-bottom: 10px;
+        padding: 15px 0px;
+        position: fixed;
+        top: 0%;
+        z-index: 99;
+        background-color: white;
+    }
+    .mobile-nav .naV {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px;
+    }
+    .mobile-nav .logo {
+        display: flex;
+        align-items: center;
+    }
+    .mobile-nav .jumia-logo {
+        width: 88px;
+        margin-left: 10px;
+    }
+    .mobile-nav .jumia-menu-icon {
+        width: 16px;
+    }
+    .mobile-nav .U_C {
+        display: flex !important;
+        align-items: center;
+    }
+    .mobile-nav .user-account {
+        width: 30px;
+        height: 30px;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        margin-right: 15px;
+        border-radius: 100%;
+    }
+    .mobile-nav .user-account:hover{
+        background-color: #ffbb00d5;
+    }
+    .mobile-nav .U_C .user-account-icon {
+        width: 16px;
+    }
+    .mobile-nav .U_C .jumia-cart-icon {
+        width: 16px;
+    }
+    .mobile-nav .inp_1 {
+        padding: 6px 10px;
+        position: relative;
+    }
+    .mobile-nav .frist_inp {
+        width: 100%;
+        padding: 2px 30px;
+        /* padding-top: 2px; */
+        padding-bottom: 3px;
+        outline: none;
+        border-radius: 20px;
+        border: thin solid #A3A3A6;
+    }
+    .mobile-nav .frist_inp::placeholder {
+        font-size: 14px;
+        color: gray;
+    }
+    .mobile-nav .inp_1 .jumia-search-icon {
+        width: 20px;
+        position: absolute;
+        bottom: 25%;
+        left: 4%;
+    }
     main {
         width: 100%;
         border-radius: 0px;
@@ -192,6 +270,9 @@
     }
     .magic_deals  {
         display: none;
+    }
+    #catego {
+        margin-top: 100px;
     }
     .CATEG {
         background-color: white;
