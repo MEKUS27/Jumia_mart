@@ -105,7 +105,6 @@
         text-align: center;
         background-color: #FFE3CE;
         text-transform: uppercase;
-        /* margin-bottom: 5px !important; */
     }
     .CTO h2 {
         font-size: 17px;
@@ -123,29 +122,12 @@
         padding-bottom: 10px;
         padding-right: 1px;
     }
-    /* .headerTwo .head .one {
-        width: fit-content;
-        background-color: red;
-    } */
+   
     .headerTwo .head .one img {
-        width: 390px;
+        width: 400px;
         margin-right: 8px;
         border-radius: 3px;
     }
-    /* .headerTwo .head .image{
-        width: 100%;
-        height:auto;
-        border-radius: 3px;
-        overflow: hidden;
-        padding-bottom: 5px;
-    }
-    
-    .headerTwo .head .image img{
-        width: 98%;
-        height: 98%;
-        object-fit: cover;
-    } */
-    
     main {
         width: 100%;
         border-radius: 0px;
