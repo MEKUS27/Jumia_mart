@@ -291,6 +291,7 @@
     .jumia {
         width: 100%;
         padding: 10px 10px;
+        margin-top: 5px !important;
     }
     .jumia h1 {
         font-size: 23px;
@@ -300,6 +301,25 @@
     }
     .jumia p {
         padding-right: 0px;
+        font-size: 10px;
+    }
+    
+    .more-text {
+        display: none; /* Hide content initially */
+    }
+    
+    .readBT {
+        text-align: center;
+    }
+    
+    .readBT button {
+        background: none;
+        border: none;
+        color: #FF9900;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        cursor: pointer;
     }
     .magic_deals  {
         display: none;

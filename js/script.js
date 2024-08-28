@@ -48,3 +48,19 @@ var x = setInterval(function () {
 document.querySelectorAll('.days').forEach((day) =>{
     console.log(day)
 })
+
+
+
+
+document.querySelector('.read-more-btn').addEventListener('click', function() {
+    const moreText = document.querySelector('.more-text');
+    const btn = document.querySelector('.read-more-btn');
+    
+    if (moreText.style.display === "none" || moreText.style.display === "") {
+        moreText.style.display = "block"; // Show more text
+        btn.textContent = "SHOW LESS"; // Change button text
+    } else {
+        moreText.style.display = "none"; // Hide text
+        btn.textContent = "SHOW MORE"; // Revert button text
+    }
+});
