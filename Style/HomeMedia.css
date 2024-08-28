@@ -43,11 +43,11 @@
         align-items: center;
     }
     .mobile-nav .jumia-logo {
-        width: 88px;
+        width: 95px;
         margin-left: 10px;
     }
     .mobile-nav .jumia-menu-icon {
-        width: 16px;
+        width: 18px;
     }
     .mobile-nav .U_C {
         display: flex !important;
@@ -67,10 +67,10 @@
         background-color: #ffbb00d5;
     }
     .mobile-nav .U_C .user-account-icon {
-        width: 16px;
+        width: 18px;
     }
     .mobile-nav .U_C .jumia-cart-icon {
-        width: 16px;
+        width: 18px;
     }
     .mobile-nav .inp_1 {
         padding: 6px 10px;
@@ -78,21 +78,21 @@
     }
     .mobile-nav .frist_inp {
         width: 100%;
-        padding: 2px 30px;
+        padding: 5px 30px;
         /* padding-top: 2px; */
-        padding-bottom: 3px;
+        /* padding-bottom: 3px; */
         outline: none;
         border-radius: 20px;
         border: thin solid #A3A3A6;
     }
     .mobile-nav .frist_inp::placeholder {
-        font-size: 14px;
+        font-size: 15px;
         color: gray;
     }
     .mobile-nav .inp_1 .jumia-search-icon {
         width: 20px;
         position: absolute;
-        bottom: 25%;
+        bottom:30%;
         left: 4%;
     }
     main {
