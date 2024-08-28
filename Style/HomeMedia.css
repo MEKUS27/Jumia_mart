@@ -55,8 +55,8 @@
         align-items: center;
     }
     .mobile-nav .user-account {
-        width: 30px;
-        height: 30px;
+        width: 37px;
+        height: 37px;
         display: flex !important;
         justify-content: center;
         align-items: center;
@@ -65,7 +65,7 @@
         border-radius: 100%;
     }
     .mobile-nav .user-account:hover{
-        background-color: #ffbb00d5;
+        background-color: #FFE3CE;
     }
     .mobile-nav .U_C .user-account-icon {
         width: 20px;
