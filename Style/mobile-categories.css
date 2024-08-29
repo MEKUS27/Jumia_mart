@@ -112,15 +112,16 @@
     list-style: none;
     padding: 0% !important;
     font-family: "DM Sans", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     background-color: white;
     padding-bottom: 200px !important;
 
 
 }
 .All-categorie .categorie-list ul li {
-    padding: 16px 20px;
+    padding: 18px 20px;
     font-size: 14px;
+    /* margin-top: 5px; */
     border-bottom: thin solid #ececec;
 }
 .All-categorie .categorie-list ul .one:hover {
@@ -142,6 +143,7 @@
     position: relative;
     right: 0%;
     justify-self: end;
+    padding-bottom: 10px;
 
 }
 .All-categorie .right .p {
@@ -149,7 +151,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    padding: 8px;
+    padding: 9px;
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
     font-size: 13px;
@@ -205,7 +207,7 @@
     padding: 10px 5px !important;
 }
 .All-categorie .categorie-box ul img {
-    width: 80px;
+    width: 90px;
 }
 .All-categorie .categorie-box ul a {
     text-decoration: none;
@@ -216,7 +218,7 @@
     background-color: #ffdbbd;
 }
 .All-categorie .categorie-box ul a p {
-    font-size: 10px;
+    font-size: 11px;
     color: black;
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
