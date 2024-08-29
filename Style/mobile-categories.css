@@ -199,13 +199,14 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    /* justify-content: space-between; */
     margin-bottom: 0% !important;
     padding-top: 10px !important;
     padding-bottom: 5px !important;
     padding: 12px 5px !important;
 }
 .All-categorie .categorie-box ul img {
-    width: 100px;
+    width: 105px;
 }
 .All-categorie .categorie-box ul a {
     text-decoration: none;
