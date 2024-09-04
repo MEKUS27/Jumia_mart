@@ -49,9 +49,6 @@ document.querySelectorAll('.days').forEach((day) =>{
     console.log(day)
 })
 
-
-
-
 document.querySelector('.read-more-btn').addEventListener('click', function() {
     const moreText = document.querySelector('.more-text');
     const btn = document.querySelector('.read-more-btn');
@@ -64,3 +61,4 @@ document.querySelector('.read-more-btn').addEventListener('click', function() {
         btn.textContent = "SHOW MORE"; // Revert button text
     }
 });
+

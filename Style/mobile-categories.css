@@ -5,7 +5,9 @@
 }
 
 @media (max-width: 520px) {
-    
+.righty{
+    /* display: none; */
+} 
 .mobilenavbar {
     position: relative;
 }
@@ -127,6 +129,7 @@
 .All-categorie .categorie-list ul .one:hover {
     background-color: #ffdbbd;
     border-left: 2px solid #f78b23;
+    cursor: pointer;
     font-weight: 500;
 }
 .All-categorie .categorie-list ul .on:hover {
@@ -223,6 +226,12 @@
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
     margin-bottom: 0% !important;
+}
+.show {
+    display: block !important;
+}
+.box {
+    display: none !important;
 }
 
 

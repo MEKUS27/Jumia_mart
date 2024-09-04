@@ -135,7 +135,7 @@
     }
     main .NewArrivals {
         border-radius: 0px;
-        background-color: #FF9900;
+        /* background-color: #FF9900; */
     }
     
     main .NewArrivals h1 {

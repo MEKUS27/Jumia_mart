@@ -64,12 +64,13 @@
         </div>
     </div>
 
+   <div class="mobile">
     <div class="All-categorie">
         <div class="left">
             <div class="categorie-list">
                 <ul>
-                    <li class="one">Home & Office</li>
-                    <li class="one">Phone & Tablets</li>
+                    <li id="home" class="one">Home & Office</li>
+                    <li id="off" class="one">Phone & Tablets</li>
                     <li class="one">Fashion</li>
                     <li class="one">Health & Beauty</li>
                     <li class="on">Electronics</li>
@@ -83,7 +84,8 @@
                 </ul>
             </div>
         </div>
-        <div class="right">
+        <div id="righty" class="right righty">
+           <div id="Hommy"  class="objects">
             <p class="p">Sell all products <img class="forward" src="./Images/icons8-forward-26.png" alt=""></p>
             <div class="categorie-box">
                 <h2>appliances</h2>
@@ -225,9 +227,72 @@
                     </a>
                 </ul>
             </div>
+           </div>
+           <div id="Office" style="display: none;" class="office">
+               dfjlauhfalsiudhuasihdad
+
+               asdnjaskbkdasbndkjasbnjkdnsakjdnsa
+
+               asndkjasnkjdnsajdnasds
+           </div>
         </div>
     </div>
+   </div>
 
+   <div class="blank">
+    <div>
+        <img width="250px" src="https://www.jumia.com.ng/assets_he/images/people.9416a3fb.svg" alt="">
+        <p>This site is not available for this viewport please visit us using a mobile device or large desktop
+            device for the best experience.</p>
+        <h1>Thank You!</h1>
+    </div>
+</div>
+<script>
+    let IsOpen = true;
+
+const home = document.getElementById("home");
+const office = document.getElementById("off");
+const homeItem = document.getElementById("righty");
+const Item1 = document.getElementById("Hommy");
+// const Item2 = document.getElementById("Office");
+console.log(homeItem)
+// if(IsOpen){
+    
+// }
+// if(homeItem.getAttribute("data-action") === "home" ){
+//     Item1.style.display = "block";
+//     home.style.background = "#ffdbbd";
+//     home.style.borderLeft = "2px solid #f78b23"
+//    }
+//    else{
+//     Item1.style.display = "none";
+//     home.style.background = "none";
+//     home.style.borderLeft = "none";
+//    }
+
+homeItem.setAttribute("data-action", "home")
+
+home.addEventListener("click", (e) =>{
+   homeItem.setAttribute("data-action", "hom")
+   
+})
+office.addEventListener("click", () =>{
+    homeItem.setAttribute("data-action", "office");
+//     if(homeItem.getAttribute("data-action") === "office" ){
+//     Item2.style.display = "block";
+//     office.style.background = "#ffdbbd";
+//     office.style.borderLeft = "2px solid #f78b23"
+//    }
+})
+
+if(homeItem.getAttribute("data-action") === "home" ){
+       alert("Hello")
+   }else{
+       alert("no")
+   }
+    // homeItem.style.display === "none";
+</script>
+<!-- <script src="./js/script.js"></script> -->
 </body>
 
 </html>
