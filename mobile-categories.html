@@ -69,8 +69,8 @@
         <div class="left">
             <div class="categorie-list">
                 <ul>
-                    <li id="home" class="one">Home & Office</li>
-                    <li id="off" class="one">Phone & Tablets</li>
+                    <li onclick="showSection('home-office')"  id="home" class="one">Home & Office</li>
+                    <li onclick="showSection('phone-tablets')"  id="off" class="one">Phone & Tablets</li>
                     <li class="one">Fashion</li>
                     <li class="one">Health & Beauty</li>
                     <li class="on">Electronics</li>
@@ -84,156 +84,285 @@
                 </ul>
             </div>
         </div>
-        <div id="righty" class="right righty">
-           <div id="Hommy"  class="objects">
-            <p class="p">Sell all products <img class="forward" src="./Images/icons8-forward-26.png" alt=""></p>
-            <div class="categorie-box">
-                <h2>appliances</h2>
-                <ul>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/14943_Washers-Dryers.png" alt="">
-                            <p>Larg Appliances</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/14895_Small-Appliances (1).png" alt="">
-                            <p>Small Appliances</p>
-                        </li>
-                    </a>
-                </ul>
-            </div>
-            <div class="categorie-box">
-                <h2>home & kitchen <span><a href="#">SELL ALL</a></span></h2>
-                <ul>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/13703.png" alt="">
-                            <p>Cookware</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/14474 (1).png" alt="">
-                            <p>Small Appliances</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/13569.png" alt="">
-                            <p>Bakeware</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/13755.png" alt="">
-                            <p>Cutlery & Kinif <br> Accessories</p>
-                        </li>
-                    </a>
-                </ul>
-            </div>
-            <div class="categorie-box">
-                <h2>home</h2>
-                <ul>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/12675.png" alt="">
-                            <p>Bedding</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/13184_Home-Decor.png" alt="">
-                            <p>Home Decor</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/14918_Cuisine_et_salle_a_manger.png" alt="">
-                            <p>kitchen & Dining</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/14923_lighting.png" alt="">
-                            <p>Lighting</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/17980_Stationery.png" alt="">
-                            <p>Stationery</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/14932_Storage-Organisation.png" alt="">
-                            <p>Storage</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/12578_Bath.png" alt="">
-                            <p>Bath</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/14869_wall_art.png" alt="">
-                            <p>Wall Art</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/14827_Aspirateurs_et_entretien_des_sols.png" alt="">
-                            <p>Vacuums & Floor <br> care</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/12943_Furniture.png" alt="">
-                            <p>Home Furniture</p>
-                        </li>
-                    </a>
-                </ul>
-            </div>
-            <div class="categorie-box">
-                <h2>office products <span><a href="#">SELL ALL</a></span></h2>
-                <ul>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/14474 (1).png" alt="">
-                            <p>Office & School <br> Suppiles</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/17791_office_electronics.png" alt="">
-                            <p>Office Electronics</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/17909_office_furniture_lighting.png" alt="">
-                            <p>Office furniture & <br> Lighting</p>
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li>
-                            <img src="./Images/mobile-categorie/61772.jpg" alt="">
-                            <p>Packaging <br> Materials</p>
-                        </li>
-                    </a>
-                </ul>
-            </div>
+        <div class="right">
+           <div id="home-office" class="category-section">
+            <div>
+                <p class="p">Sell all products <img class="forward" src="./Images/icons8-forward-26.png" alt=""></p>
+                <div class="categorie-box">
+                    <h2>appliances</h2>
+                    <ul>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/14943_Washers-Dryers.png" alt="">
+                                <p>Larg Appliances</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/14895_Small-Appliances (1).png" alt="">
+                                <p>Small Appliances</p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="categorie-box">
+                    <h2>home & kitchen <span><a href="#">SELL ALL</a></span></h2>
+                    <ul>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/13703.png" alt="">
+                                <p>Cookware</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/14474 (1).png" alt="">
+                                <p>Small Appliances</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/13569.png" alt="">
+                                <p>Bakeware</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/13755.png" alt="">
+                                <p>Cutlery & Kinif <br> Accessories</p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="categorie-box">
+                    <h2>home</h2>
+                    <ul>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/12675.png" alt="">
+                                <p>Bedding</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/13184_Home-Decor.png" alt="">
+                                <p>Home Decor</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/14918_Cuisine_et_salle_a_manger.png" alt="">
+                                <p>kitchen & Dining</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/14923_lighting.png" alt="">
+                                <p>Lighting</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/17980_Stationery.png" alt="">
+                                <p>Stationery</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/14932_Storage-Organisation.png" alt="">
+                                <p>Storage</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/12578_Bath.png" alt="">
+                                <p>Bath</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/14869_wall_art.png" alt="">
+                                <p>Wall Art</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/14827_Aspirateurs_et_entretien_des_sols.png" alt="">
+                                <p>Vacuums & Floor <br> care</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/12943_Furniture.png" alt="">
+                                <p>Home Furniture</p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="categorie-box">
+                    <h2>office products <span><a href="#">SELL ALL</a></span></h2>
+                    <ul>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/14474 (1).png" alt="">
+                                <p>Office & School <br> Suppiles</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/17791_office_electronics.png" alt="">
+                                <p>Office Electronics</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/17909_office_furniture_lighting.png" alt="">
+                                <p>Office furniture & <br> Lighting</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/61772.jpg" alt="">
+                                <p>Packaging <br> Materials</p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+               </div>
            </div>
-           <div id="Office" style="display: none;" class="office">
-               dfjlauhfalsiudhuasihdad
-
-               asdnjaskbkdasbndkjasbnjkdnsakjdnsa
-
-               asndkjasnkjdnsajdnasds
+           <div id="phone-tablets" class="category-section active">
+            <div>
+                <p class="p">Sell all products <img class="forward" src="./Images/icons8-forward-26.png" alt=""></p>
+                <div class="categorie-box">
+                    <h2>Mobile phones <span><a href="#">SELL ALL</a></span></h2>
+                    <ul>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8245_Smartphone.png" alt="">
+                                <p>Smartphones</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8268_Cell-Phones.png" alt="">
+                                <p>Basic Phone</p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="categorie-box">
+                    <h2>Tablets</h2>
+                    <ul>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8272_Other-Tablets.png" alt="">
+                                <p>Android Tablets</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/36603.jpg" alt="">
+                                <p>Small Appliances</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8251.png" alt="">
+                                <p>Tablet Accessories</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8250_Ipad-Tablets.png" alt="">
+                                <p>iPad</p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="categorie-box">
+                    <h2>Mobile Phone Accessories  <span><a href="#">SELL ALL</a></span></h2>
+                    <ul>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8110.jpg" alt="">
+                                <p>Accoressory Kits</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8221.jpg" alt="">
+                                <p>Adapters</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8073_Batteries.png" alt="">
+                                <p>Batteries</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8237.jpg" alt="">
+                                <p>Battey Chargers</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8115_Bluetooth_Headset.png" alt="">
+                                <p>Bluetooth Headsets</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8116_Cables.png" alt="">
+                                <p>Cables</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8242_Car-Accessories.png" alt="">
+                                <p>Car Accessories</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8159_Cases.png" alt="">
+                                <p>Cases</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8087_Chargers.png" alt="">
+                                <p>Chargers</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8231.jpg" alt="">
+                                <p>Earphones & <br> Headsets</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8143_Screen-Protectors.png" alt="">
+                                <p>Screen Protectors</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8144_Selfie-Sticks-Tripods.png" alt="">
+                                <p>Selfie Sticks & Tripods</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img src="./Images/mobile-categorie/8155_Smart-Watches.png" alt="">
+                                <p>Smart Watches</p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+               </div>
            </div>
         </div>
     </div>
@@ -247,52 +376,7 @@
         <h1>Thank You!</h1>
     </div>
 </div>
-<script>
-    let IsOpen = true;
-
-const home = document.getElementById("home");
-const office = document.getElementById("off");
-const homeItem = document.getElementById("righty");
-const Item1 = document.getElementById("Hommy");
-// const Item2 = document.getElementById("Office");
-console.log(homeItem)
-// if(IsOpen){
-    
-// }
-// if(homeItem.getAttribute("data-action") === "home" ){
-//     Item1.style.display = "block";
-//     home.style.background = "#ffdbbd";
-//     home.style.borderLeft = "2px solid #f78b23"
-//    }
-//    else{
-//     Item1.style.display = "none";
-//     home.style.background = "none";
-//     home.style.borderLeft = "none";
-//    }
-
-homeItem.setAttribute("data-action", "home")
-
-home.addEventListener("click", (e) =>{
-   homeItem.setAttribute("data-action", "hom")
-   
-})
-office.addEventListener("click", () =>{
-    homeItem.setAttribute("data-action", "office");
-//     if(homeItem.getAttribute("data-action") === "office" ){
-//     Item2.style.display = "block";
-//     office.style.background = "#ffdbbd";
-//     office.style.borderLeft = "2px solid #f78b23"
-//    }
-})
-
-if(homeItem.getAttribute("data-action") === "home" ){
-       alert("Hello")
-   }else{
-       alert("no")
-   }
-    // homeItem.style.display === "none";
-</script>
-<!-- <script src="./js/script.js"></script> -->
+<script src="./js/mobilecate-script.js"></script>
 </body>
 
 </html>
