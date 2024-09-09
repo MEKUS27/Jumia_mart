@@ -121,7 +121,7 @@
 
 }
 .All-categorie .categorie-list ul li {
-    padding: 20px 20px;
+    padding: 30px 20px;
     font-size: 11px;
     /* margin-top: 5px; */
     border-bottom: thin solid #ececec;
@@ -212,6 +212,7 @@
     list-style: none;
     padding: 0% !important;
     display: flex;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 0% !important;
