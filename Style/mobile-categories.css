@@ -121,8 +121,8 @@
 
 }
 .All-categorie .categorie-list ul li {
-    padding: 25px 20px;
-    font-size: 11px;
+    padding: 22px 20px;
+    font-size: 12px;
     /* margin-top: 5px; */
     border-bottom: thin solid #ececec;
 }
@@ -212,7 +212,7 @@
     list-style: none;
     padding: 0% !important;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 0% !important;
@@ -221,7 +221,7 @@
     padding: 12px 5px !important;
 }
 .All-categorie .categorie-box ul img {
-    width: 105px;
+    width: 110px;
 }
 .All-categorie .categorie-box ul a {
     text-decoration: none;
